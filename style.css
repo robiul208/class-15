@@ -1,0 +1,196 @@
+/*  defoult css heare */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear-fix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+img {
+  max-width: 100%;
+}
+
+/*  tamplet css here. */
+
+.fix-width {
+  max-width: 1070px;
+  margin: auto;
+}
+
+/*  header css */
+.header {
+  background-color: #0c2536;
+}
+.header-left {
+  width: 30%;
+  float: left;
+}
+.header-left img {
+  font-size: 0px;
+  width: 137px;
+}
+.header-right {
+  width: 70%;
+  float: right;
+}
+.header-right ul {
+  text-align: right;
+}
+.header-right ul li {
+  display: inline-block;
+  border-right: 1px solid #dddddd;
+}
+.header-right ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: -5px;
+  font-size: 16px;
+  padding: 0px 26px;
+  line-height: 50px;
+}
+.header-right ul li a:hover {
+  background-color: white;
+}
+
+/*  banner section */
+.banner {
+  background-image: url(https://i.ibb.co/Dwn3jhC/banner-img.jpg);
+  padding: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h1 {
+  max-width: 382px;
+  background-color: #07e3ee69;
+  margin: 10px auto;
+  padding: 3px 10px;
+}
+.banner h2 {
+  display: inline-block;
+  background-color: #04040475;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+}
+
+/*  about section here */
+.about {
+  padding: 30px 0px;
+}
+.about h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.about p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+/* service section */
+.service {
+}
+.service-item {
+  width: 32.33%;
+  float: left;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 15px 15px;
+  margin-left: 5px;
+}
+.service-item span {
+  font-size: 31px;
+  /* width: 100px; */
+  background-color: #27e9f2;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  line-height: 71px;
+  border-radius: 3px 20px;
+}
+.service-item p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/*  container blog section */
+.container-blog {
+  margin-top: 100px;
+}
+.blog-section-left {
+  float: left;
+  width: 70%;
+}
+.blog-section-left img {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+.blog-section-left p {
+  margin-bottom: 30px;
+}
+
+.blog-section-right {
+  float: right;
+  width: 25%;
+}
+.blog-section-Right h1 {
+  text-align: center;
+  background-color: #00ffb740;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.blog-section-Right ul {
+}
+.blog-section-Right ul li {
+  padding: 10px 12px;
+  list-style: none;
+  border: 1px solid #ddd;
+  display: inline-block;
+  background-color: #92ecd74a;
+  margin-top: 10px;
+}
+
+/*  footer design here */
+.footer {
+  background-color: rgb(37, 35, 35);
+  padding: 15px 0px;
+  color: white;
+}
+.footer-left {
+  clear: left;
+  width: 70%;
+}
+.footer-right {
+  float: right;
+  width: 30%;
+}
+.footer-right ul li {
+  display: inline-block;
+}
+
+.social-menu {
+  text-align: right;
+}
+.social-menu li {
+  display: inline-block;
+}
+.social-menu li a {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
